@@ -1,1 +1,80 @@
-<h1>Hello World!</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Craftworks Consulting LLC</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+  <div class="container header-inner">
+    <h1>Craftworks Consulting LLC</h1>
+    <nav>
+      <a href="#services">Services</a>
+      <a href="#tech">Technologies</a>
+    </nav>
+    <div class="hamburger" onclick="toggleMenu()">
+      <span></span><span></span><span></span>
+    </div>
+  </div>
+
+  <div class="container mobile-nav" id="mobileNav">
+    <a href="#services">Services</a>
+    <a href="#tech">Technologies</a>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="container">
+    <h2>We don’t just build software—we craft it.</h2>
+  </div>
+</section>
+
+<section id="services" class="section">
+  <div class="container">
+    <h3>Engineering Solutions That Scale</h3>
+    <div class="grid">
+      <div class="card"><h4>Cloud & AWS Development</h4><p>Scalable cloud-native and serverless systems.</p></div>
+      <div class="card"><h4>Web & Full Stack Development</h4><p>Modern apps using Angular and React.</p></div>
+      <div class="card"><h4>API & Integration</h4><p>Reliable and scalable Web APIs.</p></div>
+      <div class="card"><h4>CI/CD & Quality</h4><p>Automation, testing, and clean code practices.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="tech" class="section">
+  <div class="container">
+    <h3>Technologies We Use</h3>
+    <div class="grid">
+      <div class="card">AWS</div>
+      <div class="card">Angular</div>
+      <div class="card">React</div>
+      <div class="card">Web APIs</div>
+      <div class="card">CI/CD</div>
+      <div class="card">Unit Testing</div>
+      <div class="card">Clean Code</div>
+      <div class="card">GitHub Copilot</div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <h3>Industry Experience</h3>
+    <div class="grid">
+      <div class="card">Insurance</div>
+      <div class="card">Automotive</div>
+      <div class="card">Infrastructure Technology</div>
+      <div class="card">Federal Healthcare</div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">© 2026 Craftworks Consulting LLC</footer>
+
+<script src="scripts.js"></script>
+
+</body>
+</html>
